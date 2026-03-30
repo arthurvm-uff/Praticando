@@ -6,8 +6,8 @@ attach(dados)
 
 library(usethis)
 use_git_config(
-  user.name = "arthurvm-uff",
-  user.email = "arthurvm@id.uff.br"
+  user.name = "?????",
+  user.email = "?????"
 )
 
 # Verificando estrutura dos dados
@@ -31,3 +31,9 @@ summary(peso)
 sd(peso)
 summary(n_refeicoes_dia)
 sd(n_refeicoes_dia)
+
+#Xo ve as parada
+prop.table(table(fruta_gosta))
+sum(grepl("Kiwi", fruta_gosta))
+abacaxi = sum(grepl("Abacaxi", fruta_gosta))
+prop.table(table(abacaxi))
