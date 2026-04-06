@@ -1,5 +1,7 @@
 #Script simples - Aula 5 (30/3)
 
+token = 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
+
 #Leitura do banco de dados:
 dados <- read.csv("dados - respostas formulário.csv", header=T, sep=";")
 attach(dados)
